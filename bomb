@@ -1,0 +1,22 @@
+const bomb = document.querySelector('.bomb');
+
+setTimeout(() => {
+    bomb.style.top = '100px';
+    bomb.textContent = 'BOOM!';
+    bomb.style.fontSize = '48px';
+}, 1000);
+
+setTimeout(() => {
+    bomb.textContent = '***';
+    bomb.style.fontSize = '24px';
+}, 1500);
+
+setTimeout(() => {
+    bomb.textContent = '*****';
+    bomb.style.fontSize = '36px';
+}, 1600);
+
+setTimeout(() => {
+    bomb.textContent = '*******';
+    bomb.style.fontSize = '48px';
+}, 1700);
